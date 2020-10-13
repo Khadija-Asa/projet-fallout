@@ -1,37 +1,91 @@
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 768px) {
   .part1 h1 {
-    font-size: 35px;
+  font-size: 35px;
   }
   .part1 h2 {
-  	font-size: 20px;
+  font-size: 20px;
   }
   .part1 p {
-  	font-size: 15px;
+  font-size: 15px;
+  }
+  .content,
+  .part3,
+  .part4 {
+  font-size: 10px;
+  }
+  .part2 p {
+  	font-size: 18px;
+  }
+  .content {
+  padding: 40px;	
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width : 992px) {
+	.part1 h1 {
+  font-size: 45px;
+  }
+  .part1 h2 {
+  font-size: 40px;
+  }
+  .part1 p {
+  font-size: 25px;
   }
   .content .part2,
   .part3,
   .part4 {
-  	font-size: 10px;
+  font-size: 20px;
   }
   .content {
-  padding: 0;	
+  padding: 60px;	
   }
-  .vertical-line {
- 		position: relative;
-  }
-}
-
-/*@media screen and (min-width: 768px) and (max-width : 992px) {
-
 }
 
 @media screen and (min-width: 992px) and (max-width : 1200px) {
-
+	.part1 h1 {
+  font-size: 65px;
+  }
+  .part1 h2 {
+  font-size: 60px;
+  }
+  .part1 p {
+  font-size: 45px;
+  }
+  .content .part2,
+  .part3,
+  .part4 {
+  font-size: 40px;
+  }
+  .part2 p {
+  font-size: 23px; 
+  }
+  .content {
+  padding: 80px;	
+  }
 }
 
 @media screen and (min-width: 1200px) {
-
-}*/
+	.part1 h1 {
+  font-size: 75px;
+  }
+  .part1 h2 {
+  font-size: 60px;
+  }
+  .part1 p {
+  font-size: 45px;
+  }
+  .content .part2,
+  .part3,
+  .part4 {
+  font-size: 50px;
+  }
+  .part2 p {
+  	font-size: 25px;
+  }
+  .content {
+  padding: 90px;	
+  }
+}
 
 /*start*/
 
@@ -57,11 +111,11 @@ mark {
 }
 
 .vertical-line {
-  border-left: 10px solid #F0AD2F;
+  border-left: 8px solid #F0AD2F;
   display: inline-block;
   position: absolute;
 	height: 400px;
-  margin: 60px 200px;
+	margin-top: 90px;
 }
 
 .part1 {
@@ -96,19 +150,18 @@ mark {
 	text-indent: 50px;
 }
 
-
 .part3,
 .part4 {
 	line-height: 30px;
 }
 
-.content {
+/*.content {
 	padding-left: 250px;
 	padding-right: 250px;
 	padding-top: 60px;
 	padding-bottom: 80px;
 }
-
+*/
 .noir {
 	font-weight: bold;
 	font-style: italic;
@@ -134,7 +187,7 @@ footer {
 	background-color: black;
 	color: white;
 	width: 100%;
-	height: 250px;
+	height: 300px;
 }
 
 h3 {
@@ -144,33 +197,35 @@ h3 {
 	font-size: 30px;
 }
 
-.img1 {
+.guy {
 	position: relative;
 	width: 20%;
 	height: 20%;
 }
 
-.part5 p{
+.bottom p{
 	float: right;
-	background-image: url(img/Fallout-icon.png);
-	background-repeat: no-repeat;
-	background-size: 250px 200px;
 	padding-right: 150px;
 	text-align: center;
 	padding-bottom: 120px;
 }
 
-.one {
+.line1 {
 	font-weight: bold;
 	font-size: 15px;
 }
 
-.two {
+.line2 {
 	text-transform: uppercase;
 	font-size: 13px;
 }
 
-.three {
+.line3 {
 	font-weight: bold;
 	font-size: 12px;
+}
+
+.icon {
+	float: right;
+	position: absolute;
 }
