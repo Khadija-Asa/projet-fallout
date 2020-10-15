@@ -162,23 +162,13 @@ mark {
 	padding-bottom: 80px;
 }
 */
-.noir {
+.hightlightedb {
 	font-weight: bold;
 	font-style: italic;
 }
 
-.noir1 {
-	font-family: 'Roboto', sans-serif;
-	font-style: italic;
-}
-
-.jaune {
+.hightlightedy {
 	font-weight: bold;
-	color: #F0AD2F;
-	font-style: italic;
-}
-
-.jaune1 {
 	color: #F0AD2F;
 	font-style: italic;
 }
