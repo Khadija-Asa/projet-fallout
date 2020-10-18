@@ -17,7 +17,7 @@
   padding: 0;	
 }
   .vertical-line {
- 		position: relative;
+ 	position: relative;
 }
 }
 
@@ -95,23 +95,13 @@ mark {
 	padding-bottom: 80px;
 }
 
-.noir {
+.highlightedb {
 	font-weight: bold;
 	font-style: italic;
 }
 
-.noir1 {
-	font-family: 'Roboto', sans-serif;
-	font-style: italic;
-}
-
-.jaune {
+.highlightedy {
 	font-weight: bold;
-	color: #F0AD2F;
-	font-style: italic;
-}
-
-.jaune1 {
 	color: #F0AD2F;
 	font-style: italic;
 }
@@ -130,7 +120,7 @@ h3 {
 	font-size: 30px;
 }
 
-.img1 {
+.guy {
 	display: flex;
 	justify-content: flex-start;
 	position: relative;
@@ -138,28 +128,33 @@ h3 {
 	height: 20%;
 }
 
-.part5 p {
+.bottom p {
 	display: flex;
 	justify-content: flex-end;
-	background-image: url(img/Fallout-icon.png);
+	/*background-image: url(img/Fallout-icon.png);
 	background-repeat: no-repeat;
 	background-size: 200px 150px;
 	padding-right: 150px;
 	text-align: center;
-	padding-bottom: 120px;
+	padding-bottom: 120px;*/
 }
 
-.one {
+.line1 {
 	font-weight: bold;
 	font-size: 15px;
 }
 
-.two {
+.line2 {
 	text-transform: uppercase;
 	font-size: 13px;
 }
 
-.three {
+.line3 {
 	font-weight: bold;
 	font-size: 12px;
+}
+
+.icon {
+	float: right;
+	position: relative;
 }
